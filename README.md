@@ -27,9 +27,9 @@ public int compareTo(Player other){
 With the Comparator functional interface, we don’t have to implement anything with the class itself. We just need to initialize the interface where we’re sorting.
 Sorting with Comparator in three steps:
 
-1. Initialize the Comparator interface with the type you want to sort.
-2. Override the interface with your new compare method implementation.
-3. Pass the comparator in as a parameter when you call the sort() algorithm.
+### 1. Initialize the Comparator interface with the type you want to sort.
+### 2. Override the interface with your new compare method implementation.
+### 3. Pass the comparator in as a parameter when you call the sort() algorithm.
 
 ```java
 Comparator<Player> playerComparator = new Comparator<>(){
